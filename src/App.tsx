@@ -17,7 +17,6 @@ export type AnswerObject = {
 
 const TOTAL_QUESTIONS = 10;
 
-//https://opentdb.com/api.php?amount=10&type=multiple
 const App = () => {
   const [loading, setLoading] = useState(false);
   const [questions, setQuestions] = useState<QuestionState[]>([]);
